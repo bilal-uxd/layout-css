@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/bilal-uxd/layout-css/compare/v1.7.0...v1.8.0) (2025-04-14)
+
+
+### Features
+
+* npm bump version update ([d0e073d](https://github.com/bilal-uxd/layout-css/commit/d0e073db8c8db0b498bbd2d7212523ce8f8821db))
+
 ## [1.7.0](///compare/v1.6.0...v1.7.0) (2025-04-14)
 
 
