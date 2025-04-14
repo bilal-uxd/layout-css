@@ -1,0 +1,59 @@
+$space-range: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
+
+// =======================
+// Padding Utilities
+// =======================
+@each $value in $space-range {
+  .lp-a#{$value} {
+    padding: #{$value}px;
+  } // all
+  .lp-t#{$value} {
+    padding-top: #{$value}px;
+  }
+  .lp-b#{$value} {
+    padding-bottom: #{$value}px;
+  }
+  .lp-l#{$value} {
+    padding-left: #{$value}px;
+  }
+  .lp-r#{$value} {
+    padding-right: #{$value}px;
+  }
+  .lp-x#{$value} {
+    padding-left: #{$value}px;
+    padding-right: #{$value}px;
+  }
+  .lp-y#{$value} {
+    padding-top: #{$value}px;
+    padding-bottom: #{$value}px;
+  }
+}
+
+// =======================
+// Margin Utilities
+// =======================
+@each $value in $space-range {
+  .lm-a#{$value} {
+    margin: #{$value}px;
+  } // all
+  .lm-t#{$value} {
+    margin-top: #{$value}px;
+  }
+  .lm-b#{$value} {
+    margin-bottom: #{$value}px;
+  }
+  .lm-l#{$value} {
+    margin-left: #{$value}px;
+  }
+  .lm-r#{$value} {
+    margin-right: #{$value}px;
+  }
+  .lm-x#{$value} {
+    margin-left: #{$value}px;
+    margin-right: #{$value}px;
+  }
+  .lm-y#{$value} {
+    margin-top: #{$value}px;
+    margin-bottom: #{$value}px;
+  }
+}
