@@ -1,28 +1,29 @@
 {
-    "name": "@muhammedbilal/layout-css",
-    "version": "1.0.0",
-    "description": "Simple utility-first layout CSS",
-    "main": "dist/layout.css",
-    "style": "dist/layout.css",
-    "scripts": {
-        "watch": "sass --watch scss/_spacing.scss dist/layout.css",
-        "build": "sass scss/_spacing.scss dist/layout.css",
-        "publish-a": "npm publish",
-        "login": "npm login",
-        "publish": "npm publish --access public"
-    },
-    "keywords": [
-        "css",
-        "layout",
-        "spacing",
-        "utility"
-    ],
-    "author": "Your Name",
-    "license": "MIT",
-    "devDependencies": {
-        "sass": "^1.86.3",
-        "hasky": "^3.0.2"
-    },
-    "dependencies": {
-    }
+  "name": "@muhammedbilal/layout-css",
+  "version": "1.0.0",
+  "description": "Simple utility-first layout CSS",
+  "main": "dist/layout.css",
+  "style": "dist/layout.css",
+  "scripts": {
+    "watch": "sass --watch scss/_spacing.scss dist/layout.css",
+    "build": "sass scss/_spacing.scss dist/layout.css",
+    "publish-a": "npm publish",
+    "login": "npm login",
+    "publish": "npm publish --access public",
+    "prepare": "husky",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "css",
+    "layout",
+    "spacing",
+    "utility"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "sass": "^1.86.3",
+    "standard-version": "^9.5.0"
+  }
 }
